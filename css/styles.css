@@ -17,24 +17,33 @@
 	border-top: 1px solid black;
 }
 
+#navlist {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: white;
+}
+
+
+
+
 #navlist a {
 
 	font-family: 'Yellowtail', cursive;
 	font-size: 20px;
 	color: black;
+	margin-top: 7.5px;
+	margin-bottom: 7.5px;
 
 }
 
 #navlist hr {
 	border-top: 1px solid black;
-	margin-top: 7.5px;
-	margin-bottom: 7.5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 
-#bs-example-navbar-collapse-1 {
-	background-color:#E6E6FA;
-}
+
 
 #titleText {
 	/*margin-top: 10px;*/
