@@ -1,3 +1,105 @@
 #navbarStyle {
-	background-color: #F6E3CE;
+	background-color: #BDBDBD;
+	border: 1px solid black;
+	width: 100%;
+	
+}
+
+#dropdownElement {
+	border: 1px solid black;
+}
+
+.navbar-header {
+	height: 60px;
+}
+
+#bs-example-navbar-collapse-1 {
+	border-top: 1px solid black;
+}
+
+#navlist a {
+
+	font-family: 'Yellowtail', cursive;
+	font-size: 20px;
+	color: black;
+
+}
+
+#navlist hr {
+	border-top: 1px solid black;
+	margin-top: 7.5px;
+	margin-bottom: 7.5px;
+}
+
+
+#bs-example-navbar-collapse-1 {
+	background-color:#E6E6FA;
+}
+
+#titleText {
+	/*margin-top: 10px;*/
+	font-family: 'Yellowtail', cursive;
+	font-size: 30px;
+}
+
+.container {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+
+
+#navbarStyle button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 1.4em;
+	height: 40px;
+	color: black;
+	border: 1px solid black;
+}
+
+.navbar-toggle {
+	border: 1px solid black;
+	text-align: center;
+}
+
+.mainContent {
+	width: 100%;
+}
+
+.mainContent h1 {
+	font-family: 'Yellowtail', cursive;
+	font-size: 40px;
+}
+
+#mainTextBox {
+	background-color: #BDBDBD;
+	box-sizing: border-box;
+	
+}
+
+#mainTextBox > h3 {
+	font-family: 'Satisfy', cursive;
+	font-size: 25px;
+}
+
+#mainTextBox > p {
+	font-family: 'Satisfy', cursive;
+}
+
+.row {
+	margin-left: 5px;
+	margin-right: 5px;
+	}
+
+
+
+@media (max-width: 767px) {
+
+	.row {
+	margin-left: 55px;
+	margin-right: 55px}
+
 }
